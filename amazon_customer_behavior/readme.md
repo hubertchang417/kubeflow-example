@@ -1,4 +1,4 @@
-* dataset: https://www.kaggle.com/datasets/mujtabamatin/dataset-for-machine-failure-detection/data
+* dataset: https://www.kaggle.com/datasets/swathiunnikrishnan/amazon-consumer-behaviour-dataset
 * kubeflow version: 1.7.0
 * kubernetes version: 1.25.6
 ## prerequisite
@@ -54,3 +54,6 @@
 4. apply prerequisite/seldon-core-rbac.yaml and prerequisite/seldon-core-minio-secret.yaml to kubeflow user namespace
 5. get kubeflow gateway tls.crt
 6. get kubeflow authservice_session from Cookies (https://awslabs.github.io/kubeflow-manifests/main/docs/component-guides/pipelines/)
+
+## reference
+1. [Consumer Behaviour Analysis Of Amazon:A Study](https://www.kaggle.com/code/swathiunnikrishnan/consumer-behaviour-analysis-of-amazon-a-study)
